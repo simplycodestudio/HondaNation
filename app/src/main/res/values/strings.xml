@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">Honda Nation</string>
+    <string name="how_to_1">Jak wykonać diagnostykę:</string>
+    <string name="how_to_2">[1] Należy znaleźć 2-pinową wtyczkę znajdującą się w okolicach schowka pasażera i zewrzeć jej piny (np. kawałkiem przewodu)</string>
+    <string name="how_to_3">[2] Przekręcamy kluczyk na drugą pozycję i liczymy mignięcia lampki według schematu: a) krótki mignięcia - cyfra jedności; b) dłuższe mignięcia - cyfra dziesiątek; c) przerwa (ok. 1-2 sek.) - odstęp pomiędzy błędami; d) ciągle paląca się lampka - brak błędów </string>
+    <string name="title_activity_dziennik_napraw">Dziennik_napraw</string>
+    <string name="title_activity_zapisywanie_napraw">ZapisywanieNapraw</string>
+    <string name="savedata_button">zapisz</string>
+    <string name="title_activity_response_welcome">ResponseWelcomeActivity</string>
+    <string name="facebook_app_id">204686790111636</string>
+    <string name="fb_login_protocol_scheme">fb204686790111636</string>
+    <string name="zaloz_konto">załóż konto</string>
+    <string name="logout">wyloguj się</string>
+    <string name="cancel_login">cancelled</string>
+    <string name="error_login">error!</string>
+    <string name="firebase_error_login">Error!</string>
+    <string name="pamiec_wewnetrzna">pamięć wewnętrzna</string>
+    <string name="Gdrive">Google Drive</string>
+    <string name="export_to">export to</string>
+    <string name="jestes_pewien">jesteś pewien?</string>
+    <string name="usun_wszystkie_pozycje">Usuń wszystkie pozycje</string>
+    <string name="potwierdz">tak</string>
+    <string name="zaneguj">nie</string>
+    <string name="usun_pozycje">usuń pozycję</string>
+    <string name="Restore">Import :</string>
+    <string name="Import_complete">Import zakończony. Przesuń palec do dołu aby zaktualizować listę</string>
+    <string name="Backup_complete">Backup zakończony</string>
+    <string name="Cancel">Anuluj</string>
+    <string name="backup_name">Nazwa Kopii :</string>
+    <string name="zapisz">Zapisz</string>
+    <string name="nextbtn">Dalej</string>
+    <string name="prevbtn">Cofnij</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_response_all_users">ResponseAllUsersActivity</string>
+    <string name="edytuj">Edytuj</string>
+    <string name="usu">Usuń</string>
+    <string name="powrot">powrót</string>
+    <string name="todo_pojazd">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="service_book">książka serwisowa</string>
+    <string name="poradniki">poradniki i ciekawostki</string>
+    <string name="polecane_zakłady">polecane warsztaty</string>
+    <string name="kody_bledow">kody błędów</string>
+    <string name="about_app">O aplikacji</string>
+    <string name="jeden">1</string>
+    //about
+
+
+    <string name="about_opis"><![CDATA[Created & Developed by: <font color="#000000"><b>Fox Code Lab</b></font><br><i>Questions or cooperation:<i></br>]]></string>
+    <string name="contact_us"><i>foxcodelab@gmail.com</i></string>
+
+
+
+
+    //backyard
+
+    <string name="tytuł_backyard">Backyard Garage</string>
+    <string name="godziny_pracy_backyard">Pon - Pt \n --.--</string>
+    <string name="miejsce_backyard">Połczyńska 13, Warszawa</string>
+
+    // Kylo
+    <string name="tytuł_kylo">Kylo Garage</string>
+    <string name="godziny_pracy_kylo">Pon - Pt \n --.--</string>
+    <string name="miejsce_kylo">Źródlana 15, 21-003 Dys</string>
+
+
+    //kody Błędów
+    <string-array name="nazwy_bledow">
+        <item name="b1">1</item>
+
+    </string-array>
+    <string-array name="numery_bledow">
+        <item name="b1">1</item>
+
+    </string-array>
+    <string-array name="nominal">
+        <item>zł</item>
+        <item>$</item>
+    </string-array>
+
+    <string-array name="tipsy">
+        <item>konwersja P06 pod Vtec</item>
+    </string-array>
+    <string-array name="serwisy">
+        <item>Backyard Garage</item>
+        <item>Kylo Garage</item>
+    </string-array>
+    <string-array name="p06_naglowek">
+        <item>Wstęp</item>
+        <item>Model ECU</item>
+        <item>Wymagane elementy</item>
+        <item>Lutowanie</item>
+        <item>Złącze RM11</item>
+        <item>Gotowe!</item>
+    </string-array>
+<string-array name="numerki_check">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>12</item>
+    <item>13</item>
+    <item>14</item>
+    <item>15</item>
+    <item>16</item>
+    <item>17</item>
+    <item>19</item>
+    <item>20</item>
+    <item>21</item>
+    <item>22</item>
+    <item>23</item>
+    <item>30</item>
+    <item>31</item>
+    <item>41</item>
+    <item>43</item>
+    <item>45</item>
+    <item>48</item>
+    <item>54</item>
+    <item>58</item>
+    <item>61</item>
+    <item>63</item>
+    <item>65</item>
+    <item>67</item>
+    <item>70</item>
+    <item>71</item>
+    <item>72</item>
+    <item>73</item>
+    <item>74</item>
+    <item>75</item>
+    <item>76</item>
+</string-array>
+    <string-array name="bledy">
+
+        <item>Sonda lambda przy kolektorze</item>
+        <item>Sonda lambda za kolektorem</item>
+        <item>Czujnik MAP</item>
+        <item>Czujnik położenia wału</item>
+        <item>Czujnik MAP - bezwzględny czujnik ciśnienia w kolektorze</item>
+        <item>Czujnik ECT - Wskaźnik temperatury cieczy chłodzącej</item>
+        <item>Czujnik TP - czujnik położenia przepustnicy</item>
+        <item>Czujnik TDC (Top Dead Center)</item>
+        <item>Czujnik CYP (czujnik Pocition Cylinder)</item>
+        <item>Czujnik IAT (czujnik temperatury powietrza dolotowego)</item>
+        <item>Czujnik podnoszenia EGR</item>
+        <item>Baro Sensor (ciśnienie atmosferyczne)</item>
+        <item>IAC Valve (Idle Air Control)</item>
+        <item>Sygnał wyjściowy zapłonu</item>
+        <item>Układ wtrysku paliwa</item>
+        <item>VSS (czujnik prędkości pojazdu)</item>
+        <item>AT - zawór elektromagnetyczny</item>
+        <item>ELD (elektryczny czujnik obciążenia)</item>
+        <item>Zawór elektromagnetyczny VTEC</item>
+        <item>Przełącznik ciśnienia oleju VTEC</item>
+        <item>Czujnik spalania stukowego</item>
+        <item>sygnał A - automatyczna skrzynia biegów</item>
+        <item>sygnał B - automatyczna skrzynia biegów</item>
+        <item>Główny podgrzewacz czujnika tlenu</item>
+        <item>układ paliwowy</item>
+        <item>System Too Lean, Or To Reach - zbyt uboga lub zbyt bogata mieszanka paliwowa</item>
+        <item>Czujnik LAF (Lean Air Fuel) - sonda szerokopasmowa</item>
+        <item>Czujnik CKF - czujnik odchylenia prędkości wału korbowego</item>
+        <item>Czujnik TDC 2 - Top Dead Center</item>
+        <item>podgrzewany czujnik tlenu - 1</item>
+        <item>podgrzewany czujnik tlenu - 2</item>
+        <item>Grzałka czujnika tlenu</item>
+        <item>Katalizator - sprawność poniżej normy </item>
+        <item>Błąd automatycznej skrzyni biegów</item>
+        <item>Brak zapłonu na 1 cylindrze</item>
+        <item>Brak zapłonu na 2 cylindrze</item>
+        <item>Brak zapłonu na 3 cylindrze</item>
+        <item>Brak zapłonu na 4 cylindrze</item>
+        <item>Brak zapłonu na 5 cylindrze</item>
+        <item>Brak zapłonu na 6 cylindrze</item>
+
+
+
+    </string-array>
+    <string-array name="p06_opis">
+        <item>Witaj w poradniku modyfikacji ECU P06 pod obsługę VTEC'a. Cały proces nie jest skomplikowany. Wystarczą drobne zdolności manualne i kilka Elementów. Zaczynamy!</item>
+        <item>Pierwszym krokiem będzie sprawdzenie wersji ECU. Powstały 3 wersje P06.: 11F0, 1720, 1980. Różnią się one głównie miejscami pól lutowniczych. Jeśli jesteś szczęśliwym posiadaczem Wersji 1720, zapraszam do dalszych kroków. Posiadaczy pozostałych wersji odsyłam do linku: http://support.moates.net/vtec-conversion/.</item>
+        <item>\n- R0 : Zworka 0Ω (drut, nóżka od rezystora)
+        \n- R1 : Rezystor 10kΩ
+        \n- R2 : Rezystor 51kΩ
+        \n- R3 : Rezystor 12 kΩ
+        \n- D1: Dioda 1N4002 (1A / 100V)
+            \n- C1: Kondensator 1uF (tantal lub MKT)
+            \n- S1: Przełącznik 5151S (Dostępny na Aliexpress)
+            \n- T1: Tranzystor D1423 NPN (Zamiennie BC-237B lub NTE2361)
+            \nDodatkowo:
+            \n-lutownica, cyna, odsysacz do cyny
+        </item>
+        <item>Pierwszą czynnością będzie usunięcie cyny z pól lutownicznych, co ułatwi montaż komponentów. Następnie wlutowujemy elementy w oznaczonych miejscach, przestrzegając instrukcji:
+        \n - rezystory i kondensator lutujemy w dowolnej pozycji, zaś pole lutownicze przełącznika S1 zapobiega pomyłkom w montażu.
+        \n - kierunek zaporowy diody zailustrowany jest na płytce i należy go przestrzegać
+        \n - tranzystor T1 lutujemy nóżką emitera w miejsce oznaczone Literą "E" (Q26);
+        \n Miejsce montażu elementów:
+        \n D11 -> D1
+        \n Q26 -> T1
+        \n J10 -> R0
+        \n C60 -> C1
+        \n RM11 -> R1, R2, R3 (Opis na następnej stronie)
+        \n IC14 -> S1
+        </item>
+        <item>
+            W Miejsce RM11 lutujemy 3 Rezystory zaznaczone na schemacie.
+            \n- R1 : Rezystor 10kΩ
+        \n- R2 : Rezystor 51kΩ
+        \n- R3 : Rezystor 12 kΩ
+        </item>
+        <item>
+        ECU jest przygotowane do sterowania zaworem VTEC. Do wystrojenia auta wymagana jest również programowalna kość EEPROM.
+            \n Po całej operacji warto wyczyścić spód płytki acetonem i pokryć lakierem do PCB. Zabezpieczy to styki przed śniedzeniem.
+\n <i>Autor nie ponosi odpowiedzialności za usterki powstałe w wyniku nieodpowiedniego wykorzystania wiedzy zawartej w materiale.</i>
+        </item>
+    </string-array>
+</resources>

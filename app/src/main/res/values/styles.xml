@@ -1,0 +1,90 @@
+<resources>
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--<style name="ThemeAddEdit" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">"@drawable/background_gradient"</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <style name="AppTheme.NoActionBar">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+
+        <item name="colorAccent">#000000</item>
+        <item name="android:background">@color/alert_usun</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:windowTitleStyle">@style/WindowTitleStyle</item>
+    </style>
+    <style name="WindowTitleStyle"
+        parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="MyDialogImport" parent="Theme.AppCompat.Light.Dialog.Alert">
+
+        <item name="colorAccent">#000000</item>
+        <item name="android:background">#0033FF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:windowTitleStyle">@style/WindowTitleStyle</item>
+    </style>
+
+    <style name="MyDialogExport" parent="Theme.AppCompat.Light.Dialog.Alert">
+
+        <item name="colorAccent">#000000</item>
+        <item name="android:background">#006600</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:windowTitleStyle">@style/WindowTitleStyle</item>
+    </style>
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+    <style name="R_theme" >
+        <item name="android:statusBarColor">@color/R_statusbar</item>
+        <item name="android:colorBackground">@color/R_background</item>
+        <item name="cardBackgroundColor">@color/R_card</item>
+        <item name="android:itemBackground">@color/R_card</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/R_appBar</item>
+
+    </style>
+    <!--<style name="MyActionBarStyle">-->
+        <!--<item name="android:background">#FFFFFF</item>-->
+    <!--</style>-->
+
+
+    <style name="Eco_theme" parent="CardView">
+        <item name="android:statusBarColor">@color/eco_statusbar</item>
+        <item name="android:itemBackground">@color/Eco_card</item>
+        <item name="android:colorBackground">@color/Eco_background</item>
+        <item name="cardBackgroundColor">@color/Eco_card</item>
+        <item name="actionBarStyle">@style/Eco_bar</item>
+    </style>
+    <style name="Eco_bar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/Eco_appBar</item>
+
+    </style>
+
+
+
+</resources>

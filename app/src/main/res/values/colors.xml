@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#121212</color>
+    <color name="colorPrimaryDark">#434343</color>
+    <color name="colorAccent">#FFCC00</color>
+    <color name="coloraccentTransp">#1AFFCC00</color>
+    <color name="fab1_color">#CC0000</color>
+    <color name="fab2_color">#006600</color>
+    <color name="fab3_color">#0066FF</color>
+    <color name="alert_usun">#dd1818</color>
+    <color name="colorTransparentWhite">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="fb">#3366cc</color>
+    <color name="contact_us">#0066FF</color>
+
+    <!--KOLORY do tematu R-->
+    <color name="fab_r">#8b1917</color>
+    <color name="R_statusbar">#000000</color>
+    <color name="R_appBar">#000000</color>
+    <color name="R_background">#a60400</color>
+    <color name="R_card">#fff5d2</color>
+
+    <!--KOLORY do tematu Eco-->
+    <color name="fab_eco">#FF0C890C</color>
+    <color name="eco_statusbar">#117413</color>
+    <color name="Eco_appBar">#4ca125</color>
+    <color name="Eco_background">#ececec</color>
+    <color name="Eco_card">#6d00ac00</color>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/slide_image"
+        android:layout_width="325dp"
+        android:layout_height="325dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/komputer_startowe"
+    app:zoomage_restrictBounds="true"
+    app:zoomage_animateOnReset="true"
+    app:zoomage_autoResetMode="ALWAYS"
+    app:zoomage_minScale="0.8"
+    app:zoomage_maxScale="2"
+    app:zoomage_doubleTapToZoom="true"
+    app:zoomage_doubleTapToZoomScaleFactor="2"
+    >
+
+</com.jsibbold.zoomage.ZoomageView>
+
+    <!--<ImageView-->
+        <!--android:id="@+id/slide_image"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:scaleType="centerInside"-->
+        <!--app:srcCompat="@drawable/komputer_startowe" />-->
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slide_image"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scroll_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slide_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp">
+
+        <TextView
+            android:id="@+id/slide_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/slide_heading"
+            android:layout_centerHorizontal="true"
+
+            android:text="TextView"
+            android:textAlignment="center"
+
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="16sp"
+            tools:layout_width="wrap_content" />
+    </ScrollView>
+</RelativeLayout>
